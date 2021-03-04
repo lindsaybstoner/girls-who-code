@@ -62,7 +62,7 @@ function getTheGifs() {
         event.preventDefault();
 
         const animal = $(this).attr("data-animal");
-        const queryURL = `https://api.giphy.com/v1/gifs/search?q=${animal}&api_key=QJ6UNAIBuReGMsfde4Q9d32vfqDndwkb&limit=10`;
+        const queryURL = `https://api.giphy.com/v1/gifs/search?q=${animal}&api_key=QJ6UNAIBuReGMsfde4Q9d32vfqDndwkb&limit=5`;
 
         $.ajax({
             url: queryURL,
