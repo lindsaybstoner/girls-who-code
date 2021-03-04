@@ -15,11 +15,6 @@ img {
     max-width: 100%;
 }
 
-p {
-    margin: 5px;
-    padding: 0px;
-}
-
 #submitButton {
     background: teal;
     color: white;
