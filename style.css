@@ -29,10 +29,6 @@ p {
     font-size: 12px;
 }
 
-.makeBold {
-    font-weight: 500;
-}
-
 .fixDisplay {
     display: inline-block;
     padding: 10px;
